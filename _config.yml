@@ -17,7 +17,7 @@ title: Guilherme
 email: 
 description: .
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://guidefreitas.github.io" # the base hostname & protocol for your site
+url: "https://guidefreitas.github.io" # the base hostname & protocol for your site
 twitter_username: guidef
 github_username:  guidefreitas
 
