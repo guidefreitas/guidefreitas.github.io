@@ -15,12 +15,7 @@ Alguns dos assuntos que me interessam:
  - Aprendizado de máquina
  - Sistemas embarcados para fins educacionais
  - Robótica
- - Desenvolvimento de jogos 
-
-
-Bacharel em Sistemas de Informação (FCJ) 
-Especialista em Engenharia de Software (Unisociesc) 
-Mestre em Computação Aplicada na Universidade do Estado de Santa Catarina (UDESC)
+ - Desenvolvimento de jogos
 
 {% include icon-github.html username="guidefreitas" %}
 
