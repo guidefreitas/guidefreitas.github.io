@@ -339,7 +339,7 @@ plot_correlation_map(titanic)
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_8_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_8_0.png)
 
 
 ## Distribuição
@@ -352,7 +352,7 @@ plot_distribution( titanic , var = 'Age' , target = 'Survived' , row = 'Sex' )
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_10_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_10_0.png)
 
 
 Mostrando um gráfico de barras entre variáveis discretas possibilita avaliar não somente a quantidade, mas também a variação entre a relação de duas variáveis. No exemplo abaixo é possível observar que o local de embarque dos passageiros não influenciou muito no fato de terem sobrevivido ou não.
@@ -363,7 +363,7 @@ plot_categories( titanic , cat = 'Embarked' , target = 'Survived' )
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_12_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_12_0.png)
 
 
 Já o sexo influenciou, onde muito mais mulheres sobreviveram do que homens.
@@ -374,7 +374,7 @@ plot_categories( titanic , cat = 'Sex' , target = 'Survived' )
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_14_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_14_0.png)
 
 
 É possível oberver que a classe dos participantes também teve um fator predominante para a sobrevivência
@@ -385,7 +385,7 @@ plot_categories( titanic , cat = 'Pclass' , target = 'Survived' )
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_16_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_16_0.png)
 
 
 
@@ -394,7 +394,7 @@ plot_categories( titanic , cat = 'SibSp' , target = 'Survived' )
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_17_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_17_0.png)
 
 
 
@@ -403,7 +403,7 @@ plot_categories( titanic , cat = 'Parch' , target = 'Survived' )
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_18_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_18_0.png)
 
 
 
@@ -1181,7 +1181,7 @@ plot_line(hist.history['acc'], 'accuracy')
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_56_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_56_0.png)
 
 
 O gráfico de erro (loss) mostra como o erro é reduzido a cada etapa de treinamento. Funciona como um "debug" para visualizar se o treinamento está ocorrendo corretamente. Se o erro não mudar em relação a época é sinal que existe algo errado com o classificador ou seus parâmetros. 
@@ -1192,7 +1192,7 @@ plot_line(hist.history['loss'], 'loss')
 ```
 
 
-![png](/images/2017-04-10-kaggle-titanic/output_58_0.png)
+![png](/images/2017-04-10-Kaggle-Titanic/output_58_0.png)
 
 
 
