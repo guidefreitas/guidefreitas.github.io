@@ -1,0 +1,62 @@
+---
+title: Sobre - Guilherme Defreitas Juraszek
+permalink: /sobre/
+---
+
+<div class="container" markdown=1>
+    <div id="welcome-greeting">
+        <h1>Olá!</h1>
+        <p>
+        Meu nome é Guilherme. 
+        <br />
+        Sou formado em Sistemas de Informação, especialista em Engenharia de Software e mestre em Computação Aplicada. 
+        <br />
+        <br />
+        Alguns assuntos que me interessam:
+        </p>
+        <ul>
+          <li>Desenvolvimento Web</li>
+          <li>Desenvolvimento Mobile</li>
+          <li>Fablabs/Makerspaces/Hackspaces</li>
+          <li>Aprendizado de máquina e Inteligência Artificial</li>
+          <li>Sistemas embarcados para fins educacionais</li>
+          <li>Robótica</li>
+          <li>Desenvolvimento de jogos</li>
+        </ul>
+        <hr />
+    </div>
+</div>
+<div class ="container">
+{% if site.posts != empty %}
+<div class="recent-posts">
+  <h1>Artigos recentes</h1>
+  {% for post in site.posts limit: 3 %}
+    {% if forloop.first %}
+      {% assign add_class = 'most-recent' %}
+      {% capture fresh_tag %}
+        &nbsp;<span class="badge"><smaller>Novo</smaller></span>
+      {% endcapture %}
+    {% endif %}
+    <ul class="homepage-posts {{ add_class }}">
+      <li>
+        <span>
+          <h4>
+            <a href="{{ site.baseurl }}/{{ post.url }}">
+              {{ post.title }}
+            </a>
+            {{ fresh_tag }}
+            <time class="pull-right">
+              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
+            </time>
+          </h4>
+        </span>
+      </li>
+    </ul>
+    {% assign add_class = '' %}
+    {% assign fresh_tag = '' %}
+  {% endfor %}
+  <ul>
+    <a href="{{ site.baseurl }}/blog.html">Veja mais...</a>
+  </ul>
+</div>
+{% endif %}

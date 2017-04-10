@@ -13,14 +13,48 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Guilherme
-email: 
-description: .
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://guidefreitas.github.io" # the base hostname & protocol for your site
-twitter_username: guidef
-github_username:  guidefreitas
+#title: Guilherme
+#email: 
+#description: .
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "https://guidefreitas.github.io" # the base hostname & protocol for your site
+#twitter_username: guidef
+#github_username:  guidefreitas
 
 # Build settings
-markdown: kramdown
-theme: minima
+#markdown: kramdown
+#theme: minima
+
+name: Guilherme
+author: Guilherme
+baseurl: 
+description: Learn Create Teach Repeat
+github: http://www.github.com/guidefreitas
+twitter: http://www.twitter.com/guidef
+facebook: http://www.facebook.com/guidefreitas
+linkedin: https://www.linkedin.com/in/guilhermedefreitas/
+lattes: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4409884P6
+researchgate: https://www.researchgate.net/profile/Guilherme_Juraszek
+email: guilherme.defreitas@gmail.com
+location: 
+disqus: guidefreitas
+
+##Make sure to edit the above fields, especially for disqus.
+
+highlighter: rouge
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+

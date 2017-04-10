@@ -5,6 +5,12 @@ date:   2017-04-10 10:20:00 -0300
 categories: ia machinelearning
 ---
 
+## A competição
+
+Para quem ainda não conhece o site [Kaggle](http://kaggle.com) contém vários desafios onde os participantes buscam soluções para diversos problemas envolvendo aprendizado de máquina (machine learning). Um desafio não muito novo, mas bastante popupar é o do [Titanic](https://www.kaggle.com/c/titanic). 
+
+Neste desafio é preciso prever quais pessoas vão sobreviver ou não com base em dados reais do naufrágio.
+
 ```python
 import numpy as np
 import pandas as pd
