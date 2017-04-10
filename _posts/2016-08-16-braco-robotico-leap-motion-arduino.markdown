@@ -11,7 +11,6 @@ Esta brincadeira visa controlar um pequeno braço robótico (MeArm) utilizando o
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0NjoCN_xS8g" frameborder="0" allowfullscreen></iframe>
 
-{<1>}![Braço MeArm](https://dl.dropboxusercontent.com/u/148071/blog/posts/mearm_leap/mearm.JPG)
 
 ### Partes mecânicas
 
@@ -243,6 +242,5 @@ O código completo do projeto está no [github e pode ser baixado aqui](https://
 
 #### No Arduino
 No Arduino basta carregar o sketch StandardFirmata e pronto.
-{<3>}![Arduino Firmata](https://dl.dropboxusercontent.com/u/148071/blog/posts/mearm_leap/arduino_firmata.jpg)
 
 Abraço e até a próxima!

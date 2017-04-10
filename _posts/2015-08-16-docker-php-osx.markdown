@@ -193,10 +193,7 @@ O caminho **/usr/sbin/apache2ctl** é o caminho do script de controle do apache 
 
 A opção **-D FOREGROUND** força o apache a executar em primeiro plano pois o docker reconhece um processo como *rodando* apenas se ele estiver em primeiro plano.
 
-Após este procedimento você deve ser capaz de abrir o seu browser no Mac OSX e entrar no endereço *http://localhost:10080/teste.php* e ver algo semelhante a imagem abaixo:
-
-{<2>}![Browser screenshot](https://dl.dropboxusercontent.com/u/148071/blog/posts/docker_osx_apache_php/chrome.jpg)
-
+Após este procedimento você deve ser capaz de abrir o seu browser no Mac OSX e entrar no endereço *http://localhost:10080/teste.php* 
 ### Copiando uma imagem docker para outra máquina
 
 Agora que temos nossa aplicação configurada e rodando é necessário exportarmos a imagem para que ela seja executada em um servidor. Aqui vamos exportar a imagem manualmente, sem utilizar os [repositórios públicos](http://docs.docker.io/use/workingwithrepository/).

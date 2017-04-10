@@ -13,17 +13,15 @@ Recentemente participei do desenvolvimento do aplicativo [Gooparties](http://goo
 Antes de começarmos a falar de aplicações client-side vamos dar uma olhada nos modelos mais conhecidos de aplicações web.
 No modelo tradicional (server-side) MVC temos os componentes Model, View e Controller sendo executados no servidor, gerando o html e enviando esse html para ser visualizado no browser do usuário. Nesse modelo o Model, Controller e View são executados no lado servidor.
 
-
-
-{<2>}![Server Side MVC Image](https://dl.dropboxusercontent.com/u/148071/blog/posts/mvc/server_side_mvc.png)
+![Server Side MVC Image](/images/2015-07-16-aplicacoes-mvc-client-side/server_side_mvc.png)
 
 Em um formato um pouco mais evoluído temos aplicações onde o html ainda é gerado no lado servidor mas são utilizadas técnicas como ajax para atualizar de partes da página ou funcionalidades implementadas em javascript em alguns componentes para melhorar a experiência do usuário evitando um reload completo da página a cada interação do usuário. Neste modelo o Model, Controller e View ainda são executados no servidor, mas algumas funcionalidades da View passam a ser executadas no lado cliente.
 
-{<3>}![Hibrid Mode MVC Image](https://dl.dropboxusercontent.com/u/148071/blog/posts/mvc/hibrid_mode_mvc.png)
+![Hibrid Mode MVC Image](/images/2015-07-16-aplicacoes-mvc-client-side/hibrid_mode_mvc.png)
 
 O terceiro modelo são as aplicações client-side. Nesse modelo a responsabilidade de controller e view são executadas no lado cliente. O Model passa a ter duas partes, uma executada no lado servidor, quer fornece a API e validações e outra executada também no lado cliente, que também fornece validações e informações sobre a estrutura do modelo.
 
-{<4>}![Hibrid Mode MVC Image](https://dl.dropboxusercontent.com/u/148071/blog/posts/mvc/client_side_mvc.png)
+![Hibrid Mode MVC Image](/images/2015-07-16-aplicacoes-mvc-client-side/client_side_mvc.png)
 
 ## Quais as vantagens de utilizar MVC client-side?
 
@@ -65,7 +63,7 @@ Alguns outros frameworks que possuem a parte MVC e mais alguns componentes gráf
 - [Sencha Touch](http://www.sencha.com/products/touch)
 - [ExtJS](http://www.sencha.com/products/extjs)
 
-##Quais as desvantagens de utilizar MVC client-side?
+## Quais as desvantagens de utilizar MVC client-side?
 
 A principal dificuldade é a necessidade de aprender mais um (ou as vezes mais do que um) framework específico para trabalhar exclusivamente com o front-end. A inclusão dessa parte da aplicação, apesar de facilitar a manutenção como comentado anteriormente, adiciona uma nova camada na aplicação, que precisa ser compreendida e respeitada pelo time. 
 Outro fator importante a ser considerado é o fato de que aplicações client-side necessitam da execução do código javascript para gerarem o conteúdo html e exibi-lo ao usuário. Apesar de praticamente não existirem usuários com javascript desativado em seus navegadores, os mecanismos de busca ainda tem dificuldade em indexar páginas com conteúdo gerado dinamicamente no lado cliente. Se o seu projeto exige que o conteúdo do seu aplicativo seja indexado por mecanismos de busca, talvez adotar uma arquitetura puramente mvc client-side não sejam a melhor opção.
